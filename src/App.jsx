@@ -5,7 +5,7 @@ import Shop from './Pages/Shop';
 import Cart from './Pages/Cart';
 import Contact from './Pages/Contact';
 import Layout from './Pages/Layout';
-import Product from './Components/Producte/product.jsx'
+import Product from './Components/Producte/Product.jsx'
 import './App.css';
 
 function NoPage() {

@@ -1,0 +1,90 @@
+.banner{
+    width: 100%;
+    height: 300px;
+    background-image: url(../../../public/banneroriginal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0;
+}
+.Links{
+    display: flex;
+    font-size: larger;
+    font-weight: bold;
+}
+.main{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactdata{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.data{
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+}
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.forminputs{
+    width: 80%;
+    height: 40px;
+    border: solid 1px gray;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+}
+.submit{
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+@media screen and (max-width: 600px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactdata{
+        width: 90%;
+    }
+    .data{
+        width: 100%;
+    }
+    .moredata{
+        width: 100%;
+    }
+    form{
+        width: 90%;
+    }
+    p{
+        width: 80%;
+        text-align: center;
+    }
+    .forminputs{
+        width: 100%;
+    }
+    .submit{
+        width: 100%;
+    }
+}

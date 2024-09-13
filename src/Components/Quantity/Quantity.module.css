@@ -1,0 +1,23 @@
+.counter{
+    width: 125px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    border: solid 1px gray;
+    border-radius: 5px;
+    align-items: center;
+    font-size: larger;
+}
+.symbol{
+    width: 30%;
+    height: 100%;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+a:link {
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,61 @@
+.Footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    margin-top: auto;
+    
+}
+.left{
+    width: 30%;
+}
+footer{
+    width: 90%;
+}
+table{
+width: 50%;
+text-align: left;
+}
+th{
+    color: #9F9F9F;
+}
+input,button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: xx-small;
+    color: #9F9F9F;
+    border-bottom: solid 1px gray;
+    background-color: transparent;
+}
+button{
+    color: #000;
+}
+tr{
+    height: 40px;
+}
+hr{
+    width: 100%;
+    color: #9F9F9F;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  .email{
+    border: none;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }

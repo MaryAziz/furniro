@@ -1,0 +1,99 @@
+.shop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .banner{
+    width: 100%;
+    height: 300px;
+    background-image: url(../../../public/banneroriginal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0;
+}
+.Links{
+    display: flex;
+    font-size: larger;
+    font-weight: bold;
+}
+  .main {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .product {
+    width: 22%;
+    max-height: 620px;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    overflow: hidden; 
+  }
+  
+  .productLink {
+    width: 80%;
+    display: block;
+  }
+  
+  .productimg {
+    width: 100%;
+    height: auto;
+  }
+  
+  .productedescription {
+    width: 100%;
+    font-size: x-small;
+  }
+  
+  .buttonWrapper {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;   
+    transform: translate(-50%, 50%);
+    display: none; 
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 11;
+  }
+  
+  .product:hover .buttonWrapper {
+    display: block; 
+  }
+  .product:hover {
+    opacity: 0.7;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 600px) {
+    .product{
+        width: 45%;
+    }
+  }

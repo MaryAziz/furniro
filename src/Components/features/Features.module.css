@@ -1,0 +1,49 @@
+.main{
+    width: 100%;
+    height: 100px;
+    background-color:#FAF3EA ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.featuer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+    height: 50%;
+    justify-content: center;
+}
+h4{
+    margin: 0%;
+    padding: 0;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+}
+p{
+    margin: 0;
+}
+@media screen and (max-width: 600px){
+    .main{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .featuer{
+        width:60% ;
+        height: 80px;
+        justify-content: flex-start;
+    }
+}
